@@ -1,6 +1,6 @@
 # hci-dispenser
 
-FIXME
+The server side of hci-dispenser.
 
 ## Prerequisites
 
@@ -16,4 +16,6 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2013 FIXME
+Source Copyright © 2013 HCI@SCAU.
+Distributed under the Eclipse Public License, the same as Clojure
+uses. See the file COPYING.
