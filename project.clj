@@ -4,9 +4,9 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [compojure "1.1.5"]]
   :plugins [[lein-ring "0.8.2"]]
-  :ring {:handler hci-dispenser.handler/app}
+  :ring {:handler org.scauhci.dispenser.routes/app}
   :profiles
   {:dev {:dependencies [
                         [ring-mock "0.1.3"]
-                        [ring/ring-json "0.2.0"]
+                        [cheshire "5.1.1"]
                         ]}})
