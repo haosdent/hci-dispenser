@@ -1,6 +1,6 @@
 # hci-dispenser
 
-The server side of hci-dispenser.
+The source code of hci-dispenser.
 
 ## Prerequisites
 
