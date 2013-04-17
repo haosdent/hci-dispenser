@@ -2,7 +2,6 @@ import RPIO
 import urllib2
 
 def status_change_trigger(id, val):
-    val = (val + 1) % 2
     print 'Status change: gpio_id:', id, ', value:', val
 
     data = '{"status": ' + str(val) + '}'
